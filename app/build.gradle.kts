@@ -18,3 +18,7 @@ tasks.getByName("run", JavaExec::class) {
 application {
     mainClass = "hexlet.code.App"
 }
+
+dependencies {
+    implementation("info.picocli:picocli:4.7.7")
+}
