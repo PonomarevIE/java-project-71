@@ -1,5 +1,6 @@
 plugins {
     id("com.github.ben-manes.versions") version "0.53.0"
+    id("io.freefair.lombok") version "9.5.0"
     checkstyle
     application
 }
